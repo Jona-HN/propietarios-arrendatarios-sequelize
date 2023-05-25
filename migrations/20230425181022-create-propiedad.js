@@ -10,6 +10,7 @@ module.exports = {
       },
       cve_catastral: {
         type: Sequelize.STRING,
+        allowNull: false,
         unique: true
       },
       descripcion: {
